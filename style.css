@@ -473,13 +473,17 @@ footer p{
     font-size: 17px;
 }
 .s54 input{
-    width: 252px;
+    width: 271px;
     margin-top: 10px;
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 10px;
     border-radius: 4px;
     border: 1px solid rgb(196, 196, 196);
+}
+.s54 input:focus{
+    outline: 1px solid #00b6d1;
+    box-shadow: 0px 0px 0px 5px #c2eef5;
 }
 .s54 input::placeholder{
     text-align: left;
